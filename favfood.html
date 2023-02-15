@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fav Food</title>
+</head>
+<style>
+    .header {
+        height: 400px;
+        background:url('./header.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    .pizza {
+        position: absolute;
+        height: 800px;
+        background-color: #FFB100FF;
+        background-attachment: fixed;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+    
+    .fried {
+        position: absolute;
+        background-color: blueviolet;
+        background-attachment: fixed;
+        width: 100%;
+        height: 800px;
+        top: 1200px;
+    }
+    .salad {
+        position: absolute;
+        background-color: deepskyblue;
+        background-attachment: fixed;
+        width: 100%;
+        height: 800px;
+        top: 2000px;
+    }
+    
+    .container {
+        position: relative;
+        top: 50px;
+        left: 300px;
+        box-sizing: border-box;
+        padding: 10px;
+        height: 600px;
+        width: 900px;
+        outline: 3px solid white;
+    }
+    h1{
+        text-align: center;
+        color: white;
+        font-style: italic;
+    }
+    p{
+        position: relative;
+        text-align: center;
+        top:50px;
+        font-size: 20px;
+
+    }
+    #a{
+        position: relative;
+        top:30%;
+        color:white;
+    }
+   
+    
+</style>
+
+<body>
+    <div class="header">
+        <h1 id="a">SOME OF MY FAV</h1>
+        <h1 style="position: relative;
+        top:30% ;color: white;">FOODS</h1>
+    </div>
+    <div class="pizza">
+        <h1>PIZZA</h1>
+        <p>Pizza comes in a very big variety of tastes depending on ingredient,making the size and texture etc. On their own,they taste pretty good</p>
+        <div class="container">
+            <img src="./pizza.jpg" width="880px" height="580px" alt="" srcset="">
+        </div>
+    </div>
+    <div class="fried">
+        <h1>FRIED CHICKEN</h1>
+        <p>Each country has its unique seasoning and preferred cut of chicken, but the base flavour is still the same</p>
+        <div class="container">
+            <img src="./fried.jpg" width="880px" height="580px" alt="" srcset="">
+        </div>
+    </div>
+    <div class="salad">
+        <h1>SALAD</h1>
+        <p>Your body can get the much-needed fibre with salads. Fibre's job is to reduce cholestrol and aid digestion. It also makes you feel full and prevent you from overeating</p>
+        <div class="container">
+            <img src="./salad.jpg" width="880px" height="580px"  alt="" srcset="">
+        </div>
+    </div>
+</body>
+
+</html>

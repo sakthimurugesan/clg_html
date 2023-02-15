@@ -1,0 +1,6 @@
+repository is also called a workspace
+git is different from github
+git is a terminal
+github uses git to commit,
+
+readme.txt is optional in latest version of git

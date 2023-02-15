@@ -1,0 +1,55 @@
+front end 
+    1. html
+    2. css
+    3.javascript
+
+
+things need for html
+    1.notepad
+    2.saving with .html extension
+    3.web browser for viewing output
+
+2 components in html page
+    1.head title
+    2.body
+
+hyper -> link
+text -> data
+markup -> elements
+
+parser
+
+30 jan quiz 1
+6 feb coding challenge 1
+8 feb cia 1
+10 feb coding challenge 2
+14 feb quiz 2
+15 feb cia 2
+
+
+<!DOCTYPE html>  
+<html lang="en"> lang is attriubute <html lang=""> is an element
+meta description will be displayed in google seo
+utf 8 is used to display the content same as the given language
+
+image
+
+src
+height
+width
+alt
+align
+
+
+css-cascading style sheet
+style inside the element css is called inline-css
+style inside the html page css is called internal-css
+css in separate file is external-css
+
+
+subtitle track element
+
+
+... spread operator
+var arr=[1,2,3,4]
+var [a,b,c,d]=arr  object destructring

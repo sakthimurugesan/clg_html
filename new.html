@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #c1{
+        position: absolute;
+        margin-top:50px;
+    }
+    #shname{
+        margin-left: 150px;
+    }
+    #da{
+        margin-left: 160px;
+    }
+    #con{
+        margin-left: 130px;
+    }
+    #sel{
+        margin-left: 220px;
+    }
+    #tex{
+        margin-left: 220px;
+    }
+    #crew{
+        position: absolute;
+    }
+</style>
+<body>
+    <div>
+        <form action="">
+            <p>Ship name: <input type="text" id="shname"></p>
+            <p>Trip Date <input type="date" name="" id="da"></p>
+            <p>Mission Goals</p>
+            <p><input type="checkbox" name="s1" id="exp"><label for="exp">Exploration</label><input type="checkbox" name="s1" id="con"><label for="con">Contact</label></p>
+            <p><span id="crew">Crew spieces:</span> <select name="" id="sel" multiple>
+                <option value="">Xebrax</option>
+                <option value="">Snetral</option>
+                <option value="">Gosny</option>
+            </select> </p>
+            <p><span id="c1">Any additional comments?</span> <textarea name="" id="tex" cols="30" rows="10"></textarea> </p>
+            <input type="submit" value="submit" style="margin-left: 220px;">
+        </form>
+    </div>
+</body>
+</html>
